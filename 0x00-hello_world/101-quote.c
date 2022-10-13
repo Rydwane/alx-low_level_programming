@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - main fonction in the task
- * 
+ *
  *
  *Return: return 1
  */
