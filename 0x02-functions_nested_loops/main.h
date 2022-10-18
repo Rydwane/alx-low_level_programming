@@ -28,4 +28,3 @@ void jack_bauer(void);
 void times_table(void);
 void print_to_98(int);
 void print_times_table(int n);
->>>>>>> 6618aaf3b7169d7f7e94316c2ae228ea722f531b
