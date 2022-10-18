@@ -1,26 +1,4 @@
-<<<<<<< HEAD
 #include "main.h"
-
-
-/**
- * print_alphabet - prints lower case alphabet
- *
- **/
-
-void print_alphabet(void)
-{
-
-char i;
-
-for (i = 'a'; i <= 'z'; i++)
-{
-_putchar(i);
-}
-_putchar('\n');
-}
-=======
-#include "main.h"
-
 
 /**
  * print_alphabet_x10 - prints lowercase letters 10 times
@@ -42,4 +20,3 @@ _putchar(alpha);
 _putchar('\n');
 }
 }
->>>>>>> 012d23b1791936684cf0728c960d7a76c2d2f1d5
