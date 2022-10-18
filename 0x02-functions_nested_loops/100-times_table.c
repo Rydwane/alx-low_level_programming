@@ -1,19 +1,3 @@
-randomvs
-/
-holbertonschool-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-holbertonschool-low_level_programming/0x02-functions_nested_loops/100-times_table.c
-@randomvs
-randomvs question 12
- 1 contributor
-52 lines (50 sloc)  919 Bytes
 #include "holberton.h"
 /**
  * print_times_table - print times table up to input
