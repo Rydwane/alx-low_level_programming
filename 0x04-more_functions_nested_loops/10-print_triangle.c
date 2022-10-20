@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_triangle - print trialgles usin '#'
- * @size: the size of the trangle
- * Return: ivoid
- */
+* print_triangle - print trialgles usin '#'
+* @size: the size of the trangle
+* Return: ivoid
+*/
 void print_triangle(int size)
 {
 int i;
