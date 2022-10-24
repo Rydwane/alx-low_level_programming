@@ -8,9 +8,9 @@
 
 int _atoi(char *s)
 {
-int i, val, sign;
+unsigned int num = 0;
+int sign = 1;
 
-<<<<<<< HEAD
 do {
 if (*s == '-')
 sign *= -1;
@@ -18,25 +18,8 @@ else if (*s >= '0' && *s <= '9')
 num = (num * 10) + (*s - '0');
 else if (num > 0)
 break;
-}
+} 
 while (*s++);
-=======
-val = 0;
-sign = 1;
->>>>>>> e4235ee74b9a72af3792f35f082216f8928c6545
 
-for (i = 0; s[i] != '\0' && !(s[i] >= '0' && s[i] <= '9'); i++)
-{
-if (s[i] == '-')
-sign = sign * -1;
-}
-
-for (i = 0; s[i] != 0; i++)
-{
-if (s[i] >= '0' && s[i] <= '9')
-val = val * 10 + sign * (s[i] - '0');
-if (val != 0 && !(s[i] >= '0' && s[i] <= '9'))
-return (val);
-}
-return (val);
+return (num * sign);
 }
