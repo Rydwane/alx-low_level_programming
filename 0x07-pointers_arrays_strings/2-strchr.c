@@ -1,34 +1,29 @@
-#include "main.h"
-
 /**
- * _strchr - locates a character in a string
- * @src: source string
- * @c: character to search for
- * Description: searches string for character, returns pointer to char
- * Return: pointer to char
- **/
+ * _strchr - a function that locates a character in a string
+ *
+ * @s: pointer to our string array input
+ * @c: character to locate from input array
+ *
+ * Return: first occurence of charatcer or null if not found
+*/
 
-char *_strchr(char *src, char c)
+char *_strchr(char *s, char c)
 {
-int i;
-
-if (src == NULL)
+while (*s != '\0')
 {
-return (NULL);
+if (*s == c)
+return (s);
+s++;
 }
+/**
+ * if c is '\0', you should return
+ * the pointer to the '\0' of the
+ * string s
+*/
+	
+if (*s == c)
+return (s);
+/*return null if not found*/
 
-for (i = 0; src[i] != '\0'; i++)
-{
-if (src[i] == c)
-{
-return (&src[i]);
-}
-
-}
-
-if (src[i] == c)
-{
-return (&src[i]);
-}
-return (NULL);
+return ('\0');
 }
