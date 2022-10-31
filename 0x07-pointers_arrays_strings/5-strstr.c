@@ -17,6 +17,7 @@ char *_strstr(char *haystack, char *needle)
  * to assist in returning one of
  * our parameters pointers haystack
 */
+
 char *h, *n;
 
 while (*haystack != '\0')
