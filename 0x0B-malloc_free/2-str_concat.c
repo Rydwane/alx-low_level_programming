@@ -19,10 +19,10 @@ if (s2 == NULL)
 s2 = "";
 
 for (i = 0; s1[i] != '\0'; i++)
-		;
+{
 
 for (j = 0; s2[j] != '\0'; j++)
-		;
+{
 
 p = malloc((i + j) * sizeof(char) + 1);
 
@@ -36,6 +36,8 @@ for (y = i, z = 0; y < i + j; y++, z++)
 p[y] = s2[z];
 
 p[i + j] = '\0';
+}
+}
 
 return (p);
 }
