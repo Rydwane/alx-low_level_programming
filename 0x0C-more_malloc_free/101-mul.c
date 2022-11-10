@@ -119,9 +119,9 @@ _putchar(e[ti]);
 exit(98);
 }
 for (l1 = 0; argv[1][l1]; l1++)
-		;
+;
 for (l2 = 0; argv[2][l2]; l2++)
-		;
+;
 ln = l1 + l2 + 1;
 a = malloc(ln * sizeof(char));
 if (a == NULL)
