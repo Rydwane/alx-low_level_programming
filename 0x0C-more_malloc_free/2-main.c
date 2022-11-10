@@ -45,6 +45,6 @@ strcpy(a, "Best");
 strcpy(a + 4, " School! :)\n");
 a[97] = '!';
 simple_print_buffer(a, 98);
-    free(a);
-    return (0);
+free(a);
+return (0);
 }
