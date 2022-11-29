@@ -1,20 +1,4 @@
-lijsamuael
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x13-more_singly_linked_lists/9-insert_nodeint.c
-@lijsamuael
-lijsamuael adding a file that insets a new node at the given position
- 1 contributor
-48 lines (45 sloc)  847 Bytes
+#incluse <stdlib.h>
 #include "lists.h"
 
 /**
