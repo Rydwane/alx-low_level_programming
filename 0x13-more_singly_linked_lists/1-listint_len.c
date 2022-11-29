@@ -13,7 +13,7 @@ return (0);
 count = 0;
 do {
 if (h == NULL)
-			;
+;
 else
 {
 count++;
