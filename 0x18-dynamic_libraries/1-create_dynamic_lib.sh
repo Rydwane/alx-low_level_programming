@@ -1,12 +1,10 @@
 #!/bin/bash
-
-# Get all .c files in current directory
-files=(*.c)
-
-# Create object files for each .c file
-for file in ${files[@]}; do
-    gcc -c -fPIC $file
+# Find all .c files in the current directory
+files=$(find . -name "*.c")
+# Compile all .c files into object files
+for file in $files
+do
+  gcc -c -fPIC $file
 done
-
-# Create the dynamic library from the object files
+# Create the dynamic library
 gcc -shared -o liball.so *.o
